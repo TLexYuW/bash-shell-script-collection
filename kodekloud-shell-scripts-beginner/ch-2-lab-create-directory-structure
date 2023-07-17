@@ -1,0 +1,29 @@
+#!/bin/bash
+mkdir countries && cd countries
+
+mkdir USA India UK
+
+echo "Washington, D.C" > USA/capital.txt
+echo "London" > UK/capital.txt
+echo "New Delhi" > India/capital.txt
+
+uptime
+
+
+# My Ans.
+# mkdir countries && cd countries
+# mkdir USA && mkdir UK && mkdir India
+
+# cat >> USA/capital.txt << EOF
+# Washington, D.C
+# EOF
+
+# cat >> UK/capital.txt << EOF
+# London
+# EOF
+
+# cat >> India/capital.txt << EOF
+# New Delhi
+# EOF
+
+# uptime
