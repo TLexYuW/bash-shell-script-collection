@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# $$ Shell本身的PID（ProcessID） 
+# $! Shell最後運行的後台Process的PID 
+# $? 最後運行的命令的結束代碼（返回值） 
+# $- 使用Set命令設定的Flag一覽 
+# $* 所有參數列表。如"$*"用「"」括起來的情況、以"$1 $2 … $n"的形式輸出所有參數。 
+# $@ 所有參數列表。如"$@"用「"」括起來的情況、以"$1" "$2" … "$n" 的形式輸出所有參數。 
+# $# 添加到Shell的參數個數 $0 Shell本身的文件名 $1～$n 添加到Shell的各參數值。 $1是第1參數、$2是第2參數…。
+# run sh => ./variables aa bb cc ...etc.
+
+echo "Shell PID: $$"
+echo "$-"
+echo "number: $#"
+echo "scname: $0"
+echo "first : $1"
+echo "second: $2"
+echo "third: $3"
+echo "argumenet: $*"
+echo "argumenet: $@"
+echo "$!"
+echo "$?"
