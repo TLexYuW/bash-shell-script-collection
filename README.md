@@ -1,8 +1,8 @@
 # Ref
 - [shell-scripting-tutorial](shell-scripting-tutorial)
-  - https://www.shellscript.sh/index.html
+  - [The Shell Scripting Tutorial](https://www.shellscript.sh/index.html)
 - [learn-Linux-tv](learn-Linux-tv)
 - [linux-command](linux-commnad)
-  - https://www.youtube.com/@LearnLinuxTV
-- []()
-  - https://linuxhint.com/
+  - [LearnLinuxTV](https://www.youtube.com/@LearnLinuxTV)
+- [linux-hint-sh-tutorial](linux-hint-sh-tutorial)
+  - [Linuxhint](https://youtu.be/e7BufAVwDiM)

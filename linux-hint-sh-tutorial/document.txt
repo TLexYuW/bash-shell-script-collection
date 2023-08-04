@@ -1,0 +1,22 @@
+Hello Bash Scripting
+Redirect to file
+Comments
+Conditional Statements
+Loops
+Script input
+Script output
+how to send output from one script to another scrpt
+String Processing
+Numbers and Arithmetic
+Declare Command
+Arrays
+Functions
+Files and Directories
+Send Email Via Script
+Curl in Scripts
+Professional Menus
+Wait for filesystem events with inotify
+Introduction to grep
+Introduction to awk
+Introduction to sed
+Debugging bash scripts

@@ -1,0 +1,12 @@
+total 0
+drwxrwxrwx 1 xxx xxx 4096 Aug  4 13:46 .
+drwxrwxrwx 1 xxx xxx 4096 Aug  4 13:31 ..
+-rwxrwxrwx 1 xxx xxx  288 Aug  4 13:38 file1.txt
+-rwxrwxrwx 1 xxx xxx    0 Aug  4 13:38 file2.txt
+-rwxrwxrwx 1 xxx xxx    0 Aug  4 13:38 file3.txt
+-rwxrwxrwx 1 xxx xxx   51 Aug  4 13:38 file4.txt
+-rwxrwxrwx 1 xxx xxx    0 Aug  4 13:46 file5.txt
+-rwxrwxrwx 1 xxx xxx   51 Aug  4 13:46 file55.txt
+-rwxrwxrwx 1 xxx xxx   44 Aug  4 13:36 stdout.sh
+-rwxrwxrwx 1 xxx xxx   44 Aug  4 13:38 stdout2.sh
+-rwxrwxrwx 1 xxx xxx   72 Aug  4 13:46 stdout3.sh
