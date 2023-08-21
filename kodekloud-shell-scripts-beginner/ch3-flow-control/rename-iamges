@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for file in $(ls /home/bob/images)
+do
+        if [[ $file == *.jpeg  ]]
+        then
+                new_name=$(echo $file | sed 's/jpeg/jpg/g')
+                echo $new_name
+                mv /home/bob/images/$file /home/bob/images/$new_name
+        fi
+done

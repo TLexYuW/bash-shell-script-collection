@@ -1,0 +1,42 @@
+#!/bin/bash
+
+while true; do
+    echo "1. Add"
+    echo "2. Subtract"
+    echo "3. Multiply"
+    echo "4. Divide"
+    echo "5. Average"
+    echo "6. Quit"
+    read -p "Enter your choice: " opt
+
+    case $opt in
+        1)
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 + $Number2))
+        ;;
+        2)
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 - $Number2))
+        ;;
+        3)
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 * $Number2))
+        ;;
+        4)                
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 / $Number2))
+        ;;
+        5)
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$((($Number1 + $Number2) / 2))
+        ;;
+        6) break
+        ;;
+    esac
+
+done

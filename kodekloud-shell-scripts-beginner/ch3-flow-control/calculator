@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Number1=$1
+# Number2=$2
+
+while true; do
+    echo "1. Add"
+    echo "2. Subtract"
+    echo "3. Multiply"
+    echo "4. Divide"
+    echo "5. Quit"
+    read -p "Enter your choice: " opt
+
+    if [ $opt -eq 1 ]; then
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 + $Number2))
+    elif [ $opt -eq 2 ]; then
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 - $Number2))
+    elif [ $opt -eq 3 ]; then
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 * $Number2))
+    elif [ $opt -eq 4 ]; then
+        read -p "Enter Number1: " Number1
+        read -p "Enter Number2: " Number2
+        echo Answer=$(($Number1 / $Number2))
+    elif [ $opt -eq 5 ]; then
+        break
+    fi
+
+    # if [ $opt -eq 1 ]; then
+    #     echo Answer=$(($Number1 + $Number2))
+    # elif [ $choice -eq 2 ]; then
+    #     echo Answer=$(($Number1 - $Number2))
+    # elif [ $choice -eq 3 ]; then
+    #     echo Answer=$(($Number1 * $Number2))
+    # elif [ $choice -eq 4 ]; then
+    #     echo Answer=$(($Number1 / $Number2))
+    # elif [ $opt -eq 5 ]; then
+    #     break
+    # fi
+
+done
