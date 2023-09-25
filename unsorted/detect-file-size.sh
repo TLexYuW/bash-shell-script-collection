@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log_file="/mnt/c/Users/arplanet/Desktop/新增資料夾/file.log"
+log_file="/path/to/file.log"
 max_size_kb=120 # kilobytes
 
 # Check if the log file exists
